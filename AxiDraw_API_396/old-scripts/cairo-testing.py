@@ -1,10 +1,10 @@
 import cairo 
 
-with cairo.SVGSurface("example.svg", 200, 200) as surface:
+with cairo.SVGSurface("example.svg", 2550, 3300) as surface: #2550px W x 3300px H from internet
     context = cairo.Context(surface)
     x, y, x1, y1 = 0.1, 0.5, 0.4, 0.9
     x2, y2, x3, y3 = 0.6, 0.1, 0.9, 0.5
-    context.scale(200, 200)
+    context.scale(2550, 3300)
     context.set_line_width(0.04)
     context.move_to(x, y)
     context.curve_to(x1, y1, x2, y2, x3, y3)
