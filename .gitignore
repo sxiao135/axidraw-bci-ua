@@ -1,0 +1,16 @@
+axicli/
+documentation/
+examples_config/
+examples_py_axidraw/
+prebuilt_dependencies/
+pyaxidraw/
+requirements/
+test/
+axicli.py
+axidraw.code-workspace
+Installation.txt
+pyproject.toml
+setup.py
+get-pip.py
+README.txt
+venv/
