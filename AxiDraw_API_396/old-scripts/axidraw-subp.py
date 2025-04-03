@@ -12,7 +12,7 @@ ad = axidraw.AxiDraw()             # Create class instance
 
 LOCATION1 = "svgs/example.svg"
 LOCATION2 = "../svgs/example.svg"
-# LOCATION3 = "example.svg"
+LOCATION3 = "example.svg"
 
 FILE = None
 print("1")
