@@ -10,9 +10,9 @@ ad = axidraw.AxiDraw()             # Create class instance
 # print("3")
 # ad.plot_run()
 
-LOCATION1 = "svgs/example.svg"
-LOCATION2 = "../svgs/example.svg"
-LOCATION3 = "example.svg"
+LOCATION1 = "AxiDraw_API_396\old-scripts\rectangle.svg"
+LOCATION2 = "../old-scripts/rectangle.svg"
+LOCATION3 = "./rectangle.svg"
 
 FILE = None
 print("1")
