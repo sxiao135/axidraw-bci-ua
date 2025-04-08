@@ -7,7 +7,7 @@ import subprocess
 name = "Alice"
 
 filename = input("enter file name:")
-print("filename is: " + filename)
+print("filename is: " + filename) #output filename
 
 subprocess.run(["python", "./squares.py", filename])
 subprocess.run(["python", "./run-axidraw.py", filename])
